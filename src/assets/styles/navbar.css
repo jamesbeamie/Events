@@ -1,6 +1,29 @@
 body {
-  /* color: blue; */
+  padding: 0 !important;
+  margin: 0 !important;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: "Nunito", sans-serif;
 }
-h3 {
-  color: blue;
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: transparent;
+}
+.logo {
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+.routes {
+  padding: 1.6rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 30rem;
+}
+.links {
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
 }
