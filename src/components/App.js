@@ -6,9 +6,9 @@ import Navbar from "./commonComponents/Navbar";
 function App() {
   return (
     <div>
-      <Navbar />
       <Switch>
         <Route path='/home' component={LandingPage} />
+        <Route path='/navbar' component={Navbar} />
       </Switch>
     </div>
   );

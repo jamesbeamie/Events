@@ -1,6 +1,44 @@
 body {
-  /* color: red; */
+  padding: 0 !important;
+  margin: 0 !important;
+
+  font-family: "Nunito", sans-serif;
 }
-h4 {
-  color: pink;
+.page {
+  background: url(../images/reception.jpg) no-repeat center center;
+  background-size: cover;
+  height: 93vh;
+  z-index: 100;
+}
+.page-left {
+  display: flex;
+  flex-direction: row;
+  padding: 14rem 8rem 2rem 8rem;
+}
+.page-content {
+  color: rgb(247, 240, 240) !important;
+  padding: 0;
+}
+.page-wording {
+}
+.page-wording h6 {
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+}
+.buttn {
+  background-color: gold;
+  color: rgb(15, 15, 15);
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+.buttn:hover {
+  background-color: rgb(160, 150, 109);
+  color: rgb(248, 244, 244);
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  font-family: "Nunito", sans-serif;
 }
