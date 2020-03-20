@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 
 export class Navbar extends Component {
   render() {
+    const tokn = localStorage.getItem("token");
     return (
       <div className='navigation-bar'>
         <div className='logo'>
-          <Link className='logo' to='/home'>
+          <Link className='logo' to='/'>
             Events Inc
           </Link>
         </div>
@@ -18,6 +19,11 @@ export class Navbar extends Component {
           <Link className='links' to='#'>
             Create
           </Link>
+          {!tokn && (
+            <Link className='links' to='/login'>
+              Login
+            </Link>
+          )}
         </div>
       </div>
     );
