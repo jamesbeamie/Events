@@ -21,22 +21,28 @@ class LoginPage extends Component {
     });
   };
 
-  handleSignUp = event => {
+  handleSignIn = event => {
     event.preventDefault();
     const { email, password } = this.state;
     const loginData = { email, password };
 
-    // eslint-disable-next-line react/prop-types
-    // this.props.signInAction(loginData);
+    /* 
+    Access the login API route to send login request
+    with loginData as the payload
+    */
     console.log(loginData);
-    // localStorage.setItem("token");
+    /* 
+    Set the authorization token to local storage 
+    after succesful authentication using
+    localStorage.setItem("token");
+    */
   };
 
   render() {
     return (
       <React.Fragment>
         <Navbar />
-        <form className='auth-form' onSubmit={this.handleSignUp}>
+        <form className='auth-form' onSubmit={this.handleSignIn}>
           <div className='heading'>
             <h4>
               Sign In
