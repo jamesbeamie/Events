@@ -35,7 +35,6 @@ class CreateEvent extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
         <form className='event-form' onSubmit={this.handlePost}>
           <div className='img-input'>
             <img

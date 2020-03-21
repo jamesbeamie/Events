@@ -13,7 +13,7 @@ export class Navbar extends Component {
           </Link>
         </div>
         <div className='routes'>
-          <Link className='links' to='#'>
+          <Link className='links' to='/events'>
             Events
           </Link>
           <Link className='links' to='/create-event'>
