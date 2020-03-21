@@ -1,7 +1,6 @@
 // import { connect } from "react-redux";
 import React, { Component } from "react";
 import "../assets/styles/auth.css";
-import Navbar from "./commonComponents/Navbar";
 import { Link } from "react-router-dom";
 class LoginPage extends Component {
   constructor(props) {
@@ -39,7 +38,6 @@ class LoginPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
         <form className='auth-form' onSubmit={this.handleSignIn}>
           <div className='heading'>
             <h4>

@@ -4,16 +4,21 @@ import LandingPage from "./LandingPage";
 import Navbar from "./commonComponents/Navbar";
 import LoginPage from "./SignIn";
 import CreateEvent from "./CreateEvent";
+import EventList from "./EventListComponents";
 
 function App() {
   return (
     <div>
-      <Switch>
-        <Route exact path='/' component={LandingPage} />
-        <Route path='/navbar' component={Navbar} />
-        <Route path='/login' component={LoginPage} />
-        <Route path='/create-event' component={CreateEvent} />
-      </Switch>
+      <React.Fragment>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={LandingPage} />
+          <Route path='/navbar' component={Navbar} />
+          <Route path='/login' component={LoginPage} />
+          <Route path='/create-event' component={CreateEvent} />
+          <Route path='/events' component={EventList} />
+        </Switch>
+      </React.Fragment>
     </div>
   );
 }

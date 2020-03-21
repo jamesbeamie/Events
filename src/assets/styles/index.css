@@ -12,3 +12,6 @@ body,
 .page {
   height: 100vh;
 }
+.events-container {
+  padding: 3rem 30rem;
+}
