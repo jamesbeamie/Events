@@ -1,19 +1,21 @@
-/* eslint-disable react/prop-types */
 import React from "react";
 import events from "./commonComponents/dumyData";
 import "../assets/styles/index.css";
 import AllEvents from "./AllEvents";
 
 const EventList = () => {
-  console.log("events", events);
   const fetchedEvents = events.map(event => {
     return (
       <AllEvents
-        title={event.name}
+        key={event.unique_token}
+        title={event.title}
         eventId={event.id}
         owner={event.owner}
-        date={event.date}
+        date={event.start}
         location={event.location}
+        unique={event.unique_token}
+        attendants={event.attending}
+        comments={event.comments}
       />
     );
   });

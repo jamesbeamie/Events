@@ -18,3 +18,88 @@
   justify-content: space-between;
   padding-right: 15px;
 }
+.main-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+}
+.oneA {
+  margin: 0 10px;
+}
+.main-image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.oneB {
+  padding: 3rem 40px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+}
+.img-mini {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.threeA {
+}
+.threeB {
+  border-left: 1.5px solid rgb(162, 163, 162);
+  height: 15rem;
+}
+.threeA h5,
+.threeC h5 {
+  padding-left: 0 !important;
+  text-align: center;
+}
+.threeC {
+  padding-left: 0 !important;
+}
+.threeC h5 {
+  padding-left: 0 !important;
+  text-align: center;
+}
+.img-prof {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border: 0.2px;
+  border-radius: 18px;
+}
+.share {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+.invite {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+.share:hover {
+  background-color: #3c6191;
+  color: white;
+  outline: none;
+}
+.invite:hover {
+  background-color: #36975f;
+  color: white;
+  outline: none;
+}
