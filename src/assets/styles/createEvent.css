@@ -1,0 +1,101 @@
+.event-form {
+  width: 20rem;
+  height: auto;
+  max-width: 80%;
+  margin: 6rem auto;
+  border: 3px solid black;
+  padding: 2rem 2rem 2rem 2.5rem;
+  border-radius: 10px;
+
+  border: 0.1px solid rgb(250, 249, 246);
+  box-shadow: 0.3px 0.3px 5px 5px rgb(194, 192, 194);
+}
+.event-details {
+  margin-top: 3rem;
+}
+.img-input {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.battons {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem auto;
+}
+.battons button {
+  padding: 2px 15px;
+  margin: 0.2rem;
+  border: 1.5px solid #d7dbdd;
+  border-radius: 18px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.battons button:hover {
+  background-color: #58d68d;
+  color: white;
+}
+.form-ctrl {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 14px;
+  border-bottom: 2px solid #d7dbdd;
+}
+.form-ctrl input,
+.form-ctrl textarea {
+  border: none;
+  outline: none;
+  background: none;
+  display: block;
+  font-size: 20px;
+  width: 100%;
+}
+.action-buttons {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10rem;
+}
+.battns {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  margin-top: 0.8rem;
+}
+.battns button {
+  padding: 2px 15px;
+  border: 1.5px solid #d7dbdd;
+  border-radius: 18px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.cancel {
+  background-color: #b5b6b5;
+  color: white;
+  outline: none;
+}
+.submit {
+  background-color: #58d68d;
+  color: white;
+  outline: none;
+}
+.cancel:hover {
+  background-color: #8a8b8a;
+  color: white;
+  outline: none;
+}
+.submit:hover {
+  background-color: #049440;
+  color: white;
+  outline: none;
+}

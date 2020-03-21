@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body,
+.page {
+  height: 100vh;
+}
+.events-container {
+  padding: 3rem 30rem;
+}
