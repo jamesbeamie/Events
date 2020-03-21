@@ -1,9 +1,7 @@
 // import { connect } from "react-redux";
 import React, { Component } from "react";
 import "../assets/styles/auth.css";
-import LandingPage from "./LandingPage";
 import Navbar from "./commonComponents/Navbar";
-// import signInAction from "../actions/signIn";
 import { Link } from "react-router-dom";
 class LoginPage extends Component {
   constructor(props) {

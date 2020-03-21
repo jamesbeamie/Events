@@ -16,7 +16,7 @@ export class Navbar extends Component {
           <Link className='links' to='#'>
             Events
           </Link>
-          <Link className='links' to='#'>
+          <Link className='links' to='/create-event'>
             Create
           </Link>
           {!tokn && (
